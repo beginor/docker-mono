@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM beginor/ubuntu-china:16.04
 
 MAINTAINER beginor <beginor@qq.com>
 
