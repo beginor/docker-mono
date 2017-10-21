@@ -8,3 +8,6 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E03280
     && apt-get update && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends mono-devel \
     && rm -rf /var/lib/apt/lists/*
+
+# Default command
+CMD [ "mono", "--version" ]
