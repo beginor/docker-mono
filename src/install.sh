@@ -9,5 +9,5 @@ apt-get update && apt-get upgrade -y
 # install mono
 apt-get install -y --no-install-recommends mono-devel
 # cleanup
-apt-get autoremove
+apt-get autoremove -y
 rm -rf /var/lib/apt/lists/*
