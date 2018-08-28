@@ -1,4 +1,4 @@
-# Xamarin Mono docker image based on Ubuntu 16.04
+# Xamarin Mono docker image based on debian stretch-slim (9.x)
 
 Only `mono-devel` is installed with `no-install-recommends`, can be used as base image for others.
 
